@@ -1,0 +1,49 @@
+version: '2.4'
+services:
+  website:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: website-web
+    image: website-web
+    ports:
+      - 8000:80
+    mem_limit: 512m
+    mem_reservation: 256m
+    memswap_limit: 512m
+    volumes:
+      - web:/var/www/html/website
+    links:
+      - website-db
+      - website-redis
+    env_file:
+      - .env.web
+  website-db:
+    restart: always
+    image: mysql:5.7
+    container_name: website-db
+    #ports:
+    #  - 3306:3306
+    mem_limit: 1024m
+    mem_reservation: 256m
+    memswap_limit: 512m
+    env_file:
+      - .env.db
+    volumes:
+      - db:/var/lib/mysql
+  website-redis:
+    restart: always
+    image: redis:4-alpine
+    container_name: website-redis
+    #ports:
+    #  - 6379:6379
+    mem_limit: 2048m
+    mem_reservation: 512m
+    memswap_limit: 512m
+    volumes:
+      - redis:/data
+volumes:
+    web:
+    db:
+    redis:

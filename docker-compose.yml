@@ -1,0 +1,40 @@
+version: '3'
+services:
+  website:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: website-web
+    image: website-web
+    ports:
+      - 8000:80
+    volumes:
+      - web:/var/www/html/website
+    links:
+      - website-db
+      - website-redis
+    env_file:
+      - .env.web
+  website-db:
+    restart: always
+    image: mysql:5.7
+    container_name: website-db
+    #ports:
+    #  - 3306:3306
+    env_file:
+      - .env.db
+    volumes:
+      - db:/var/lib/mysql
+  website-redis:
+    restart: always
+    image: redis:4-alpine
+    container_name: website-redis
+    #ports:
+    #  - 6379:6379
+    volumes:
+      - redis:/data
+volumes:
+    web:
+    db:
+    redis:
