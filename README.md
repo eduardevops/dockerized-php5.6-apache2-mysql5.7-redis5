@@ -11,11 +11,12 @@ All necessary comments will be provided at the very end
 *	MySQL v5.7.26
 *	Redis v5.0.5
 
-## Tables
-First Header | Second Header
+## Content
+Name| Description
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Dockerfile | As it says, Dockerfile from which image will be build
+docker-compose.yml | Main file of the project that builds and links containers
+web | Web folder where you need to copy your web project
 
 ## Function
 ```javascript
