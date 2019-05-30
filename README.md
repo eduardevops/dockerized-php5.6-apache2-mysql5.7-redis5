@@ -21,7 +21,7 @@ web | Web folder where you need to copy your web project
 .env.db | This file will contain your database root password as well as new database name with its owner user and password
 
 ## Run
-```docker-compose
+```yaml
 docker-compose up -d
-docker-compose logs -f
 ```
+## Use `docker-compose loggs -f` to check containers logs in real time
