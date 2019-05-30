@@ -24,11 +24,10 @@ function fancyAlert(arg) {
 }
 ```
 ## Modifications
-#### Chnage all values in env files including
+#### Chanage all values in env files including
 * @database_name
 * @database_user
 * @password
 
 ### As Kanye West said:
-> We're living the future so
-> the present is our past.
+> We're living the future so the present is our past.
