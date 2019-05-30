@@ -1,7 +1,9 @@
 ## Dockerized PHP v5.6.40 Apache v2.4.25 MySQL v5.7.26 Redis v5.0.5
 ------
 
-![Logo](lg.png)
+Inline-style:
+![alt text](lg.png "Logo Title Text 1")
+
 ------
 
 # INFO!!!
