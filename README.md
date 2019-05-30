@@ -3,14 +3,23 @@
 Still working on this.
 All necessary comments will be provided at the very end
 
-# Versions
+## Versions
 *	PHP v5.6.40
 *	Apache v2.4.25
 *	MySQL v5.7.26
 *	Redis v5.0.5
 
-# Tables
+## Tables
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+
+## Function
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
