@@ -8,3 +8,6 @@ All necessary comments will be provided at the very end
 *	Apache v2.4.25
 *	MySQL v5.7.26
 *	Redis v5.0.5
+
+I think you should use an
+`<addr>` element here instead.
