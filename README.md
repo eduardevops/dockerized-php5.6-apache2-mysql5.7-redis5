@@ -1,4 +1,4 @@
-# Dockerized PHP v5.6.40 Apache v2.4.25 MySQL v5.7.26 Redis v5.0.5 \
+### Dockerized PHP v5.6.40 Apache v2.4.25 MySQL v5.7.26 Redis v5.0.5
 
 ![Logo](logo.png)
 
