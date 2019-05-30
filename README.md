@@ -19,10 +19,18 @@ docker-compose.yml  | Main file of the project that builds and links containers
 web | Web folder where you need to copy your web project
 .env.db | This file will contain your database root password as well as new database name with its owner user and password
 .env.redis | Redis container environments
+lg.png | This repo's logo. Will be removed soon
 
 ## Run
 ```yaml
 docker-compose up -d
 ```
-Use `docker-compose loggs -f` to check containers logs in real time
+
+* Use `docker-compose loggs -f` to check containers logs in real time
+
+------
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
 ------
