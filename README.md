@@ -9,5 +9,8 @@ All necessary comments will be provided at the very end
 *	MySQL v5.7.26
 *	Redis v5.0.5
 
-I think you should use an
-`<addr>` element here instead.
+# Tables
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
