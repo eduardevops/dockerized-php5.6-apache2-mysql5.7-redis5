@@ -32,5 +32,6 @@ docker-compose up -d
 ```
 ------
 
-![#f03c15] (Use `docker-compose loggs -f` to check containers logs in real time)
+Use `docker-compose loggs -f` to check containers logs in real time
 ------
+- ![#f03c15](Use `docker-compose loggs -f` to check containers logs in real time) `#f03c15`
