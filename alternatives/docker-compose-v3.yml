@@ -29,7 +29,7 @@ services:
       - db:/var/lib/mysql
   website-redis:
     restart: always
-    image: redis:4-alpine
+    image: redis:5-alpine
     container_name: website-redis
     #ports:
     #  - 6379:6379
