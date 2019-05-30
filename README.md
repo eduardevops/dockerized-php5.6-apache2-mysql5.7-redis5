@@ -23,3 +23,8 @@ function fancyAlert(arg) {
   }
 }
 ```
+## Modifications
+Chnage all values in env files including
+@database_name
+@database_user
+@password
