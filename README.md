@@ -1,9 +1,7 @@
 ## Dockerized PHP v5.6.40 Apache v2.4.25 MySQL v5.7.26 Redis v5.0.5
 ------
 
-Inline-style:
-![alt text](lg.png "Logo Title Text 1")
-
+![Logo](lg.png)
 ------
 
 # INFO!!!
@@ -37,3 +35,11 @@ docker-compose up -d
 Use `docker-compose loggs -f` to check containers logs in real time
 
 ------
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
