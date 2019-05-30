@@ -18,6 +18,7 @@ Dockerfile | As it says, Dockerfile from which image will be build
 docker-compose.yml  | Main file of the project that builds and links containers
 web | Web folder where you need to copy your web project
 .env.db | This file will contain your database root password as well as new database name with its owner user and password
+.env.redis | Redis container environments
 
 ## Run
 ```yaml
