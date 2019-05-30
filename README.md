@@ -24,4 +24,4 @@ web | Web folder where you need to copy your web project
 ```yaml
 docker-compose up -d
 ```
-## Use `docker-compose loggs -f` to check containers logs in real time
+Use `docker-compose loggs -f` to check containers logs in real time
