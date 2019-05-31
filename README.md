@@ -34,3 +34,4 @@ docker-compose up -d
 
 * Use `docker-compose loggs -f` to check containers logs in real time
 ------
+<img alt="MicroBadger Size (tag)" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6/latest.svg?style=flat-square">
