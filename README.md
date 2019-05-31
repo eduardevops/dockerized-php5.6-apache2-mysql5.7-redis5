@@ -2,6 +2,7 @@
 ------
 
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6.svg?style=plastic">
+<img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6.svg">
 
 ------
 
