@@ -34,4 +34,3 @@ docker-compose up -d
 
 * Use `docker-compose loggs -f` to check containers logs in real time
 ------
-<img src="https://camo.githubusercontent.com/7641583cd3e0c56b2a5cb92af15e29a17f7fd238/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f636570682f6461656d6f6e2e737667" alt="Ceph Daemon Pulls" data-canonical-src="https://img.shields.io/docker/pulls/ceph/daemon.svg" style="max-width:100%;">
