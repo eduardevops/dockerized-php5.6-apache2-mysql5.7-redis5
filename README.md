@@ -1,8 +1,7 @@
 ## Dockerized PHP v5.6.40 Apache v2.4.25 MySQL v5.7.26 Redis v5.0.5
 ------
 
-<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6.svg?style=plastic">
-<img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6.svg">
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6.svg?style=plastic"><img alt="MicroBadger Size" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6.svg">
 
 ------
 
