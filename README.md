@@ -11,6 +11,8 @@
 # INFO!!!
 ####  Still working on this. All necessary comments will be provided at the very end
 ------
+## First things first
+Before starting this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 ## Versions
 *	PHP v5.6.40
