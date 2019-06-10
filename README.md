@@ -4,7 +4,6 @@
 
 
 ------
-
 ![Logo](lg.png)
 ------
 
@@ -20,7 +19,6 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 *	MySQL v5.7.26
 *	Redis v5.0.5
 ------
-
 ## Content
 Name| Description
 ------------ | -------------
@@ -31,7 +29,6 @@ web | Web folder where you need to copy your web project
 .env.redis | Redis container environments
 lg.png | This repo's logo. Will be removed soon
 ------
-
 ## Run
 ```yaml
 docker-compose up -d
