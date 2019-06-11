@@ -13,6 +13,7 @@
 ## First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
+
 ## Versions
 *	PHP v5.6.40
 *	Apache v2.4.25
@@ -29,6 +30,11 @@ web | Web folder where you need to copy your web project
 .env.redis | Redis container environments
 lg.png | This repo's logo. Will be removed soon
 ------
+# Description
+------
+
+All names and parameters can be, and in most cases should be edited.
+
 ## Run
 ```sh
 docker-compose up -d
