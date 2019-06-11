@@ -31,10 +31,10 @@ web | Web folder where you need to copy your web project
 lg.png | This repo's logo. Will be removed soon
 ------
 # Description
-------
+
 
 All names and parameters can be, and in most cases should be edited.
-
+------
 ## Run
 ```sh
 docker-compose up -d
