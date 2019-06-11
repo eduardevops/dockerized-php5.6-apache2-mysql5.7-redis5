@@ -51,7 +51,7 @@ Run `docker-compose loggs -f` to check containers logs in real time
 openssl rand -base64 64 | docker secret create root_passwd -
 openssl rand -base64 64 | docker secret create db_passwd -
 ```
-# Example 2
+#### Example 2
 ```sh
 echo "someROOTpassword" | docker secret create root_passwd -
 echo "someDBUSERpassword" | docker secret create db_passwd -
