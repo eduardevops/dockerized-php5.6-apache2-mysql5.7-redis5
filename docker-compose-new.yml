@@ -1,4 +1,4 @@
-version: '3'
+version: '3.3'
 services:
   website:
     restart: always
@@ -19,11 +19,24 @@ services:
   website-db:
     restart: always
     image: mysql:5.7
+    secrets:
+      - root_passwd
+      - db_passwd
+    deploy:
+      replicas: 1
+      resources:
+        reservations:
+          memory: 128M
+        limits:
+          memory: 256M
     container_name: website-db
     #ports:
     #  - 3306:3306
-    env_file:
-      - .env.db
+    environment:
+      MYSQL_USER: user
+      MYSQL_DATABASE: db
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/root_passwd
+      MYSQL_PASSWORD_FILE: /run/secrets/db_passwd
     volumes:
       - db:/var/lib/mysql
   website-redis:
@@ -38,3 +51,9 @@ volumes:
     web:
     db:
     redis:
+
+secrets:
+  root_passwd:
+    external: true
+  db_passwd:
+    external: true
