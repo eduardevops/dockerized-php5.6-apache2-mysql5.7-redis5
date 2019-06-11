@@ -40,8 +40,11 @@ All names and parameters can be, and in most cases should be edited.
 docker-compose up -d
 ```
 ------
+
 Run `docker-compose loggs -f` to check containers logs in real time
+
 ------
+
 ## Generate Secrets
 #### Example 1
 ```sh
