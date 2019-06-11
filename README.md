@@ -30,18 +30,18 @@ web | Web folder where you need to copy your web project
 lg.png | This repo's logo. Will be removed soon
 ------
 ## Run
-```yaml
+```sh
 docker-compose up -d
 ```
 ------
-
-* Use `docker-compose loggs -f` to check containers logs in real time
+Run `docker-compose loggs -f` to check containers logs in real time
 ------
 ## Generate Secrets
 ```sh
+# Example 1
 openssl rand -base64 64 | docker secret create root_passwd -
 openssl rand -base64 64 | docker secret create db_passwd -
-
+# Example 2
 echo "someROOTpassword" | docker secret create root_passwd -
 echo "someDBUSERpassword" | docker secret create db_passwd -
 ```
