@@ -38,10 +38,10 @@ docker-compose up -d
 * Use `docker-compose loggs -f` to check containers logs in real time
 ------
 ## Generate Secrets
-```
-###
+```bash
 openssl rand -base64 64 | docker secret create root_passwd -
 openssl rand -base64 64 | docker secret create db_passwd -
 
 echo "someROOTpassword" | docker secret create root_passwd -
 echo "someDBUSERpassword" | docker secret create db_passwd -
+```
