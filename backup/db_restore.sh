@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # Getting current date
-now=$(date +"%d.%b.%Y")
+now=$(date +"%d-%b-%Y")
 
-# Restore JIRA DB
-cat jira_db.sql | docker exec -i jira-db /usr/bin/mysql -u jira_user --password=password jira_db
+source /opt/dockerized-php5.6/.env.db
 
 # Restore Stackpost DB
-cat website_db.sql | docker exec -i website_db /usr/bin/mysql -u website_user --password=password website_db
+cat /backup/website/${MYSQL_DATABASE}_${now}.sql | docker exec -i $(docker ps -qf name=website-db) /usr/bin/mysql -u website_user --default-character-set=utf8mb4 -u${MYSQL_USER} -p${MYSQL_PASSWORD} ${MYSQL_DATABASE}
