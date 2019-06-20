@@ -21,8 +21,8 @@ services:
     #ports:
     #  - 3306:3306
     environment:
-      MYSQL_DATABASE: stackpost_db
-      MYSQL_USER: stackpost_user
+      MYSQL_DATABASE: website_db
+      MYSQL_USER: website_user
       MYSQL_PASSWORD: Lhn7qV7nAySvutdek9zX
       MYSQL_ROOT_PASSWORD: pUzncLfsxpTb4L6eGfTC
     volumes:

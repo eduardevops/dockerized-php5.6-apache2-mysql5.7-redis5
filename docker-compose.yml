@@ -9,8 +9,8 @@ services:
     image: website-web
     ports:
       - 8000:80
-    volumes:
-      - web:/var/www/html/website
+    #volumes:
+    #  - web:/var/www/html/website
     links:
       - website-db
       - website-redis

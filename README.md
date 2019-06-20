@@ -41,7 +41,7 @@ docker-compose up -d
 ```
 ------
 
-Run `docker-compose loggs -f` to check containers logs in real time
+Run `docker-compose logs -f` to check containers logs in real time
 
 ------
 
