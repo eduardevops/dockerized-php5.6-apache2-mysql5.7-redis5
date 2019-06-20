@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker run --rm --volumes-from stackpost-web -v /backup/stackpost:/backup ubuntu tar cvf /backup/stackpost_web-$now.tar /var/www/html/stackpost
-
-docker run --rm --volumes-from jira-web -v /backup/jira:/backup ubuntu tar cvf /backup/jira_home-$now.tar /var/atlassian/jira
+# Getting current date
+now=$(date +"%d-%b-%Y")
+docker run --rm -it -v $(docker inspect --format '{{ range .Mounts }}{{ if eq .Destination "/var/www/html/website" }}{{ .Name }}{{ end }}{{ end }}' $(docker-compose ps -q website-web)):/vmail -v /backup/website:/backup debian:stretch-slim tar xvfz /backup/backup_vmail_$now.tar.gz
