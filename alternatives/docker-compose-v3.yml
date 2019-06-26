@@ -23,8 +23,8 @@ services:
     environment:
       MYSQL_DATABASE: website_db
       MYSQL_USER: website_user
-      MYSQL_PASSWORD: Lhn7qV7nAySvutdek9zX
-      MYSQL_ROOT_PASSWORD: pUzncLfsxpTb4L6eGfTC
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
     volumes:
       - db:/var/lib/mysql
   website-redis:
