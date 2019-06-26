@@ -28,8 +28,11 @@ services:
     mem_limit: 1024m
     mem_reservation: 256m
     memswap_limit: 512m
-    env_file:
-      - .env.db
+    environment:
+       MYSQL_ROOT_PASSWORD: password
+       MYSQL_DATABASE: website_db
+       MYSQL_USER: website_user
+       MYSQL_PASSWORD: password
     volumes:
       - db:/var/lib/mysql
   website-redis:

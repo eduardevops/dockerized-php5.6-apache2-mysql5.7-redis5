@@ -9,6 +9,8 @@
 
 # INFO!!!
 ####  Still working on this. All necessary comments will be provided at the very end
+####  Don't use this
+
 ------
 ## First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
