@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Cron jobs
-#*/3 * * * *    /bin/bash /opt/scripts/db_backup.sh >> /var/log/db_cron.log
-#*/5 * * * *    /bin/bash  /opt/scripts/web_backup.sh >> /var/log/web_cron.log
+#* * * * *    /bin/bash /opt/dockerized-php5.6-apache2/backup/web_backup.sh >> /var/log/web_backup-cron.log
+# If you do not have a clear understanding how to configure date in crontab or you just feel too lazy to do so, use https://crontab.guru
+# Very useful project
 
 # Get current date
 now=$(date +"%d-%b-%Y")
