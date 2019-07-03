@@ -4,7 +4,7 @@
 
 
 ------
-![Logo](lg.png)
+![Logo](logo.jpg)
 ------
 
 # INFO!!!
