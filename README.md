@@ -35,6 +35,7 @@ web | Web folder where you need to copy your web project
 ## Description
 All names and parameters can be, and in most cases should be edited.
 ------
+
 ## Run
 ```sh
 cd /path/to/dockerized-php5.6-apache
@@ -44,4 +45,3 @@ To check real-time logs
 ```sh
 docker-compose logs -f
 ```
-------
