@@ -41,13 +41,7 @@ All names and parameters can be, and in most cases should be edited.
 ```sh
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
-```
-------
-
-Run
-```bash
+To check real-time logs
 docker-compose logs -f
 ```
-to check containers logs in real time
-
 ------
