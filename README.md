@@ -43,5 +43,7 @@ cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 ------
+```sh
 Run `docker-compose logs -f` to check containers logs in real time
+```
 ------
