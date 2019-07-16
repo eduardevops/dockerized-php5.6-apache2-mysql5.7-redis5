@@ -43,19 +43,5 @@ cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 ------
-
 Run `docker-compose logs -f` to check containers logs in real time
-
 ------
-
-## Generate Secrets
-#### Example 1
-```sh
-openssl rand -base64 64 | docker secret create root_passwd -
-openssl rand -base64 64 | docker secret create db_passwd -
-```
-#### Example 2
-```sh
-echo "someROOTpassword" | docker secret create root_passwd -
-echo "someDBUSERpassword" | docker secret create db_passwd -
-```
