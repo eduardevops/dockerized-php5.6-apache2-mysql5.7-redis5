@@ -39,6 +39,7 @@ All names and parameters can be, and in most cases should be edited.
 ------
 ## Run
 ```sh
+cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 ------
