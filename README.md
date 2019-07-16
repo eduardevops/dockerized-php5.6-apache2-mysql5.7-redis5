@@ -46,7 +46,7 @@ docker-compose up -d
 
 Run
 ```bash
-'docker-compose logs -f'
+docker-compose logs -f
 ```
 to check containers logs in real time
 
