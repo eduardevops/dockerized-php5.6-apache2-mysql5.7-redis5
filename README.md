@@ -4,7 +4,7 @@
 
 
 ------
-![Logo](logo.jpg)
+![Logo](./assets/logo.jpg)
 ------
 
 # INFO!!!
