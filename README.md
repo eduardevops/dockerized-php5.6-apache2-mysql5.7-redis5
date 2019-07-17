@@ -51,21 +51,3 @@ To check real-time logs
 docker-compose logs -f
 ```
 ------
-<body>
-
-  <div id="content">
-    <h1>Heading here</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor <em>sit</em> amet.</p>
-    <hr>
-  </div>
-
-  <div id="nav">
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ul>
-  </div>
-
-</body>
