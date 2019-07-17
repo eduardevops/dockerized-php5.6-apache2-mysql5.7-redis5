@@ -50,12 +50,14 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ### Description
 Name| Description
 ------------ | -------------
+.env.db | MySQL Database root password. As well as new Database user and password
+.env.redis | Redis container environments
 Dockerfile | As it says, Dockerfile from which image will be build
+apache-reverse-proxy.conf | As it says, reverse proxy config for apache2
+apache2.conf | Default apache2.conf for Debian/Ubuntu to ...Could not reliably determine the server's fully.. error message (I just hate it)
 docker-compose.yml  | Main file of the project that builds and links containers
 docker-compose-alter.yml | Alternative config file for version 2.4 so you can set memory limits
 web | A folder where you can  copy your web project (website/webapp/etc)
-.env.db | MySQL Database root password. As well as new Database user and password
-.env.redis | Redis container environments
 db_backup.sh | BASH script for database backup
 db_restore.sh | BASH script for database restore
 web_backup.sh | BASH script for web folder backup
