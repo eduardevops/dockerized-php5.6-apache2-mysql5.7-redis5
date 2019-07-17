@@ -30,10 +30,6 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ├── .env.db
 ├── .env.web
 ├── Dockerfile
-├── assets
-│   ├── docker-compose-logs.gif
-│   ├── docker-compose-up.gif
-│   └── logo.jpg
 ├── backup
 │   ├── db_backup.sh
 │   ├── db_restore.sh
