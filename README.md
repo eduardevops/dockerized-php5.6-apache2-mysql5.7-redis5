@@ -57,9 +57,13 @@ docker-compose logs -f
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Tree</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <style type="text/css">
+  ul.LinkedList { display: block; }
+  ul.LinkedList ul { display: none; }
+
+  </style>
 </head>
-                                                                                                                          <body>
+<body>
 <ul>
     <li><span class="Collapsable">item 1</span><ul>
         <li><span class="Collapsable">item 1</span></li>
@@ -96,14 +100,6 @@ docker-compose logs -f
     </li>
     <li><span class="Collapsable">item 4</span></li>
 </ul>
-<script type="text/javascript">
-    $(".Collapsable").click(function () {
-
-        $(this).parent().children().toggle();
-        $(this).toggle();
-
-    });
-</script>
 
 </body>
 </html>
