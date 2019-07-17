@@ -55,7 +55,7 @@ docker-compose logs -f
 ------
 
 ```bash
-├── - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 'Dockerfile'
+├── Dockerfile
 ├── LICENSE
 ├── README.md
 ├── assets
@@ -76,3 +76,9 @@ docker-compose logs -f
 └── web
     └── index.html
 ```
+
+<div class="position-relative p-6 bg-gray">
+  <div class="border bg-white position-absolute top-2">.top-2</div>
+  <div class="border bg-white position-absolute position-lg-static right-md-4">.right-md-4</div>
+  <div class="border bg-white position-lg-absolute left-lg-1">.left-lg-1</div>
+</div>
