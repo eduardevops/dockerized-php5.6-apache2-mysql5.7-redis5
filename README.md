@@ -21,7 +21,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 *	Redis v5.0.5
 ------
 ## Content
-The list doesn't content git generated files (e.g. README.md)
+The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
 ### Tree
 
