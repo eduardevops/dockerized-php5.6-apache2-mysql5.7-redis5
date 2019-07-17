@@ -77,11 +77,12 @@ Navigate to the project folder and start containers
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
-To check real-time logs
-```sh
-docker-compose logs -f
-```
 
 ## Animation
 ![Animation](./assets/docker-compose-up.gif)
+
 ------
+Check logs in real-time
+```sh
+docker-compose logs -f
+```
