@@ -27,8 +27,6 @@ The list doesn't content git generated files (e.g. README.md)
 
 ```bash
 ├── Dockerfile
-├── LICENSE
-├── README.md
 ├── assets
 │   └── logo.jpg
 ├── backup
