@@ -37,6 +37,11 @@ web | Web folder where you need to copy your web project
 
 
 ## Run
+Clone repo to your server (I would suggest use /opt directory)
+```bash
+git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
+```
+
 ```sh
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
