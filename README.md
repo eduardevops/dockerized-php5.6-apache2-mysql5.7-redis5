@@ -41,7 +41,7 @@ Clone repo to your server (I would suggest use /opt directory)
 ```bash
 git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
-
+Navigate to the project folder and start containers
 ```sh
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
