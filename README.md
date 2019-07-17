@@ -22,6 +22,8 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 *	Redis v5.0.5
 ------
 ## Content
+The list doesn't content git generated files (e.g. README.md)
+
 Name| Description
 ------------ | -------------
 Dockerfile | As it says, Dockerfile from which image will be build
