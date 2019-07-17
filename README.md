@@ -65,7 +65,12 @@ All names and parameters can be, and in most cases should be edited.
 ## Run
 Clone repo to your server (I would suggest use /opt directory)
 ```bash
-git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
+sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
+```
+
+Make sure your user is a member of Docker group
+```sh
+usermod -aG docker <username>
 ```
 Navigate to the project folder and start containers
 ```sh
@@ -76,4 +81,5 @@ To check real-time logs
 ```sh
 docker-compose logs -f
 ```
+
 ------
