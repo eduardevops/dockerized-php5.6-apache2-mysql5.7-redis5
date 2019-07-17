@@ -86,3 +86,6 @@ Check logs in real-time
 ```sh
 docker-compose logs -f
 ```
+
+#### Animation
+![Animation](./assets/docker-compose-logs.gif)
