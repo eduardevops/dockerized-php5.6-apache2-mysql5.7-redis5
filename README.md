@@ -51,3 +51,11 @@ To check real-time logs
 docker-compose logs -f
 ```
 ------
+
+<li class="jstree-open" id="node_1">Root
+  <ul>
+    <li>
+      <a href="#" class="jstree-clicked">Child</a>
+    </li>
+  </ul>
+</li>
