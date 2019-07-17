@@ -57,7 +57,7 @@ web | A folder where you can  copy your web project (website/webapp/etc)
 db_backup.sh | BASH script for database backup
 db_restore.sh | BASH script for database restore
 web_backup.sh | BASH script for web folder backup
-web_restore.sh | BASH script for web folder backup
+web_restore.sh | BASH script for web folder restore
 
 ------
 #### ToDo
