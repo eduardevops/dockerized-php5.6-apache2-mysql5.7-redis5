@@ -53,6 +53,8 @@ To check real-time logs
 docker-compose logs -f
 ```
 ------
+
+```bash
 ├── Dockerfile
 ├── LICENSE
 ├── README.md
@@ -73,3 +75,4 @@ docker-compose logs -f
 ├── docker-compose.yml
 └── web
     └── index.html
+```
