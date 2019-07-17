@@ -15,7 +15,7 @@
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 
-## Versions
+## Components Versions
 *	PHP v5.6.40
 *	Apache v2.4.25
 *	MySQL v5.7.26
@@ -26,8 +26,8 @@ Name| Description
 ------------ | -------------
 Dockerfile | As it says, Dockerfile from which image will be build
 docker-compose.yml  | Main file of the project that builds and links containers
-docker-compose-alter.yml | Alternative config file for version 2.4 so you can set RAM usage
-web | Web folder where you need to copy your web project
+docker-compose-alter.yml | Alternative config file for version 2.4 so you can set memory limits
+web | A folder where you can  copy your web project (website/webapp/etc)
 .env.db | MySQL Database root password. As well as new Database user and password
 .env.redis | Redis container environments
 
