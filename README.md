@@ -54,6 +54,10 @@ docker-compose-alter.yml | Alternative config file for version 2.4 so you can se
 web | A folder where you can  copy your web project (website/webapp/etc)
 .env.db | MySQL Database root password. As well as new Database user and password
 .env.redis | Redis container environments
+db_backup.sh | BASH script for database backup
+db_restore.sh | BASH script for database restore
+web_backup.sh | BASH script for web folder backup
+web_restore.sh | BASH script for web folder backup
 
 ------
 #### ToDo
