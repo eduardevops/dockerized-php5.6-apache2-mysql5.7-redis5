@@ -52,20 +52,13 @@ docker-compose logs -f
 ```
 ------
 
-<html>
-  <head>
-    <script>
-       // run this function when the document is loaded
-       window.onload = function() {
-
-         // create a couple of elements in an otherwise empty HTML page
-         var heading = document.createElement("h1");
-         var heading_text = document.createTextNode("Big Head!");
-         heading.appendChild(heading_text);
-         document.body.appendChild(heading);
-      }
-    </script>
+<!doctype html>
+<html lang="en">
+ <head>
+   <title>My first web page</title>
   </head>
-  <body>
+ <body>
+    <h1>Hello, world!</h1>
+    <p>How are you?</p>
   </body>
 </html>
