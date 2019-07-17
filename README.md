@@ -58,11 +58,11 @@ web | A folder where you can  copy your web project (website/webapp/etc)
 .env.redis | Redis container environments
 
 ------
-## ToDo
+#### ToDo
 All names and parameters can be, and in most cases should be edited.
 
 
-## Run
+#### Run
 Clone repo to your server (I would suggest use /opt directory)
 ```bash
 sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
@@ -78,7 +78,7 @@ cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 
-## Animation
+#### Animation
 ![Animation](./assets/docker-compose-up.gif)
 
 ------
