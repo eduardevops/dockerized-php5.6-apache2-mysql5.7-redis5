@@ -53,3 +53,23 @@ To check real-time logs
 docker-compose logs -f
 ```
 ------
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── assets
+│   └── logo.jpg
+├── backup
+│   ├── db_backup.sh
+│   ├── db_restore.sh
+│   ├── web_backup.sh
+│   └── web_restore.sh
+├── conf
+│   ├── apache-reverse-proxy.conf
+│   ├── apache2.conf
+│   ├── httpd.conf
+│   ├── nginx-reverse-proxy.conf
+│   └── website.conf
+├── docker-compose-alter.yml
+├── docker-compose.yml
+└── web
+    └── index.html
