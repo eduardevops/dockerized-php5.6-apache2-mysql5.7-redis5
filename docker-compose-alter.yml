@@ -11,7 +11,7 @@ services:
       - 8000:80
     mem_limit: 512m
     mem_reservation: 256m
-    memswap_limit: 512m
+    memswap_limit: 256m
     volumes:
       - web:/var/www/html/website
     links:
