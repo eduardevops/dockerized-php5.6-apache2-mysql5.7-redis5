@@ -51,16 +51,3 @@ To check real-time logs
 docker-compose logs -f
 ```
 ------
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="tree.css">
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <div id="tree" class=""></div>
-
-  <script src="../tree.js"></script>
-  <script src="index.js"></script>
-</body>
-</html>
