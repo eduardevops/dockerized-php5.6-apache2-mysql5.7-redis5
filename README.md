@@ -24,6 +24,31 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 ## Content
 The list doesn't content git generated files (e.g. README.md)
 
+### tree
+
+```bash
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── assets
+│   └── logo.jpg
+├── backup
+│   ├── db_backup.sh
+│   ├── db_restore.sh
+│   ├── web_backup.sh
+│   └── web_restore.sh
+├── conf
+│   ├── apache-reverse-proxy.conf
+│   ├── apache2.conf
+│   ├── httpd.conf
+│   ├── nginx-reverse-proxy.conf
+│   └── website.conf
+├── docker-compose-alter.yml
+├── docker-compose.yml
+└── web
+    └── index.html
+```
+
 Name| Description
 ------------ | -------------
 Dockerfile | As it says, Dockerfile from which image will be build
@@ -53,26 +78,3 @@ To check real-time logs
 docker-compose logs -f
 ```
 ------
-
-```bash
-├── Dockerfile
-├── LICENSE
-├── README.md
-├── assets
-│   └── logo.jpg
-├── backup
-│   ├── db_backup.sh
-│   ├── db_restore.sh
-│   ├── web_backup.sh
-│   └── web_restore.sh
-├── conf
-│   ├── apache-reverse-proxy.conf
-│   ├── apache2.conf
-│   ├── httpd.conf
-│   ├── nginx-reverse-proxy.conf
-│   └── website.conf
-├── docker-compose-alter.yml
-├── docker-compose.yml
-└── web
-    └── index.html
-```
