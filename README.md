@@ -24,7 +24,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 ## Content
 The list doesn't content git generated files (e.g. README.md)
 
-### tree
+### Tree
 
 ```bash
 ├── Dockerfile
@@ -48,7 +48,7 @@ The list doesn't content git generated files (e.g. README.md)
 └── web
     └── index.html
 ```
-
+### Description
 Name| Description
 ------------ | -------------
 Dockerfile | As it says, Dockerfile from which image will be build
