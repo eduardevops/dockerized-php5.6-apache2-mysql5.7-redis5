@@ -86,5 +86,3 @@ Check logs in real-time
 ```sh
 docker-compose logs -f
 ```
-
-[![Docker](http://img.youtube.com/vi/pGYAg7TMmp0/0.jpg)](http://www.youtube.com/watch?v=pGYAg7TMmp0 "Docker")
