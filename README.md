@@ -27,8 +27,7 @@ Name| Description
 Dockerfile | As it says, Dockerfile from which image will be build
 docker-compose.yml  | Main file of the project that builds and links containers
 docker-compose-alter.yml | Alternative config file for version 2.4 so you can set memory limits
-web | * A folder where you can  copy your web project (website/webapp/etc)
-      * Folder where you can  copy your web project (website/webapp/etc)
+web | A folder where you can  copy your web project (website/webapp/etc)
 .env.db | MySQL Database root password. As well as new Database user and password
 .env.redis | Redis container environments
 
