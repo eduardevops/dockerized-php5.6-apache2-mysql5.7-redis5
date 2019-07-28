@@ -5,6 +5,9 @@
 ![Logo](./assets/logo.jpg)
 ------
 
+If you are looking for  PHP5.6 with Nginx use the following project <br>
+![Dockerized PHP5.6 with Nginx](https://github.com/eduardevops/dockerized-php5.6-nginx)
+
 # INFO!!!
 ####  Still working on this. All necessary comments will be provided at the very end
 ####  Don't use this
@@ -87,14 +90,8 @@ cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 
-#### Animation
-![Animation](./assets/docker-compose-up.gif)
-
 ------
 Check logs in real-time
 ```sh
 docker-compose logs -f
 ```
-
-#### Animation
-![Animation](./assets/docker-compose-logs.gif)
