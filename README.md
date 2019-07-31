@@ -5,6 +5,8 @@
 ![Logo](./assets/logo.jpg)
 ------
 
+Once I got a freelance job to dockerize a web application based on PHP 5.6 with MySQL database. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed container on my own for that project both for using Apache with PHP and Nginx with PHP-FPM. After that, I thought it would be a good idea to make your life easier by sharing it publicly so that you can use it for your projects. 
+
 If you are looking for  PHP5.6 with Nginx use the following project <br>
 ![Dockerized PHP5.6 with Nginx](https://github.com/eduardevops/dockerized-php5.6-nginx)
 
