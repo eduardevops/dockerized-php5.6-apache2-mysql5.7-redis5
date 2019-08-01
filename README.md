@@ -57,8 +57,6 @@ Name| Description
 .env.redis | Redis container environments
 Dockerfile | As it says, Dockerfile from which image will be build
 apache-reverse-proxy.conf | Reverse proxy config for apache2
-apache2.conf | Default apache2.conf for Debian/Ubuntu
-httpd.conf | Default httpd.conf for CentOS/RHEL
 nginx-reverse-proxy.conf | Reverse proxy config for nginx
 website.conf | Apache vhost config file for container
 db_backup.sh | BASH script for database backup
