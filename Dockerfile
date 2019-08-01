@@ -1,10 +1,9 @@
-FROM php:5.6-apache as PHP5.6
+FROM php:5.6-apache
 
 RUN mkdir /var/www/html/website
 VOLUME web:/var/www/html/website
 
 COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
-COPY ./conf/apache2.conf  /etc/apache2/apache2.conf
 COPY web /var/www/html/website
 
 RUN chown -R www-data:www-data /var/www/html/website \
