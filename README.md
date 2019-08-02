@@ -30,7 +30,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 
 ### Tree
 
-```css
+```less
 
 ├── .env.db
 ├── .env.web
@@ -59,7 +59,7 @@ All names and parameters can be, and in most cases should be edited.
 #### Run
 Clone repo to your server (I would suggest use /opt directory)
 
-```css
+```less
 sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
 
