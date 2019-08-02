@@ -30,7 +30,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 
 ### Tree
 
-```python
+```css
 .
 ├── .env.db
 ├── .env.web
@@ -50,22 +50,6 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
     └── index.html
 ```
 
-### Description
-Name| Description
------------- | -------------
-.env.db | MySQL Database root password. As well as new Database user and password
-.env.redis | Redis container environments
-Dockerfile | As it says, Dockerfile from which image will be build
-apache-reverse-proxy.conf | Reverse proxy config for apache2
-nginx-reverse-proxy.conf | Reverse proxy config for nginx
-website.conf | Apache vhost config file for container
-db_backup.sh | BASH script for database backup
-db_restore.sh | BASH script for database restore
-web_backup.sh | BASH script for web folder backup
-web_restore.sh | BASH script for web folder restore
-docker-compose.yml  | Main file of the project that builds and links containers
-docker-compose-alter.yml | Alternative config file for version 2.4 so you can set memory limits
-web | A folder where you can  copy your web project (website/webapp/etc)
 
 ------
 #### ToDo
