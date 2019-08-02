@@ -64,19 +64,19 @@ sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
 
 Make sure your user is a member of Docker group
-```css
+```less
 usermod -aG docker <username>
 ```
 
 Navigate to the project folder and start containers
 
-```css
+```less
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 
 ------
 Check logs in real-time
-```css
+```less
 docker-compose logs -f
 ```
