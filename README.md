@@ -51,12 +51,12 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 
 ```
 
-------
-#### ToDo
+
+### ToDo
 All names and parameters can be, and in most cases should be edited.
 
 
-#### Run
+### Run
 Clone repo to your server (I would suggest use /opt directory)
 
 ```less
