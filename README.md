@@ -30,7 +30,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 
 ### Tree
 
-```javascript
+```python
 .
 ├── .env.db
 ├── .env.web
