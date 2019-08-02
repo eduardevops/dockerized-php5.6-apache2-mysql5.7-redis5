@@ -31,7 +31,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ### Tree
 
 ```css
-.
+
 ├── .env.db
 ├── .env.web
 ├── Dockerfile
@@ -48,8 +48,8 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ├── docker-compose.yml
 └── web
     └── index.html
-```
 
+```
 
 ------
 #### ToDo
