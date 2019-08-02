@@ -58,12 +58,13 @@ All names and parameters can be, and in most cases should be edited.
 
 #### Run
 Clone repo to your server (I would suggest use /opt directory)
-```bash
+
+```css
 sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
 
 Make sure your user is a member of Docker group
-```sh
+```css
 usermod -aG docker <username>
 ```
 Navigate to the project folder and start containers
