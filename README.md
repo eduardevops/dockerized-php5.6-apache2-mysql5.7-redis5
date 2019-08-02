@@ -67,14 +67,16 @@ Make sure your user is a member of Docker group
 ```css
 usermod -aG docker <username>
 ```
+
 Navigate to the project folder and start containers
-```sh
+
+```css
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 
 ------
 Check logs in real-time
-```sh
+```css
 docker-compose logs -f
 ```
