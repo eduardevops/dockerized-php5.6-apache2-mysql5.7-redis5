@@ -28,7 +28,7 @@ RUN apt-get update  \
     && docker-php-ext-install exif \
     && apt-get purge --auto-remove -y libjpeg-dev libmcrypt-dev libcurl3-dev libxml2-dev libicu-dev \
     && docker-php-ext-install mysqli \
-    #&& docker-php-ext-install pdo_mysql \
+    && docker-php-ext-install pdo_mysql \
     && apt-get autoremove
 
 EXPOSE 80 443
