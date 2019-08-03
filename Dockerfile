@@ -4,6 +4,7 @@ RUN mkdir /var/www/html/website
 VOLUME web:/var/www/html/website
 
 COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
+COPY ./conf/php.ini /usr/local/etc/php/
 COPY web /var/www/html/website
 
 RUN echo "ServerName localhost" | tee /etc/apache2/conf-available/servername.conf
@@ -14,7 +15,6 @@ RUN chown -R www-data:www-data /var/www/html/website \
     && a2ensite website.conf \
     && a2enmod rewrite \
     && service apache2 restart
-
 
 RUN apt-get update && apt-get install -y --no-install-recommends libpng-dev libjpeg-dev libjpeg62-turbo libmcrypt4 libmcrypt-dev libcurl3-dev libxml2-dev libxslt-dev libicu-dev  && rm -rf /var/lib/apt/lists/*
 
