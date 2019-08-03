@@ -22,7 +22,7 @@ RUN apt-get update  \
     && apt-get install -y zlib1g-dev \
     && docker-php-ext-configure gd --with-jpeg-dir=/usr/lib \
     && docker-php-ext-install gd \
-    && docker-php-ext-install mbstring \
+    #&& docker-php-ext-install mbstring \
     && docker-php-ext-install zip \
     && docker-php-ext-install mysql \
     && docker-php-ext-install exif \

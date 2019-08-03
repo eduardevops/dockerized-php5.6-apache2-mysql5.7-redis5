@@ -55,11 +55,6 @@ Clone repo to your server (I would suggest use /opt directory)
 sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
 
-Make sure your user is a member of Docker group
-```less
-usermod -aG docker <username>
-```
-
 Navigate to the project folder and start containers
 
 ```less
