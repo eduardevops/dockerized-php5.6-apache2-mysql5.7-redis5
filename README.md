@@ -24,7 +24,10 @@ Make sure to rename config files and their content to something that better refl
 In config folder you will find files for proxying web, for both Apache and Nginx, whichever suits you the best
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize)
 
-------
+Backup
+
+Alternatives
+
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
@@ -49,6 +52,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
     └── index.php
 ```
 
+------
 #### HowTo
 Clone repo to your server (I would recommend using /opt directory)
 
@@ -68,3 +72,5 @@ Check logs in real-time
 ```less
 docker-compose logs -f
 ```
+
+-----
