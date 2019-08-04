@@ -42,7 +42,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ├── docker-compose-alter.yml
 ├── docker-compose.yml
 └── web
-    └── index.html
+    └── index.php
 ```
 
 #### ToDo
