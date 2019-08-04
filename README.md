@@ -49,11 +49,12 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 All names and parameters can be, and in most cases should be edited.
 
 #### Run
-Clone repo to your server (I would suggest use /opt directory)
+Clone repo to your server (I would recommend using /opt directory)
 
 ```less
 sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
+Put your webapp/website into the 'web' folder
 
 Navigate to the project folder and start containers
 

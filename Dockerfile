@@ -7,6 +7,7 @@ COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
 COPY ./conf/php.ini /usr/local/etc/php/
 COPY web /var/www/html/website
 
+# To av
 RUN echo "ServerName localhost" | tee /etc/apache2/conf-available/servername.conf
 RUN a2enconf servername
 
