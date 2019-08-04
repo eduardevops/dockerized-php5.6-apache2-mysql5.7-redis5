@@ -14,6 +14,9 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
+Make sure to rename config files and their content to something that better reflects your project. In fact rename everything.
+In config folder you will find files for proxying web, for both Apache and Nginx, whichever suits you the best
+There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize)
 
 #### Components Versions
 *	PHP v5.6.40
