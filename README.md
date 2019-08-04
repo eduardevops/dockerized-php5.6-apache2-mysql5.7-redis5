@@ -49,10 +49,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
     └── index.php
 ```
 
-#### ToDo
-All names and parameters can be, and in most cases should be edited.
-
-#### Run
+#### HowTo
 Clone repo to your server (I would recommend using /opt directory)
 
 ```less
