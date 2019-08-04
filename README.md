@@ -10,6 +10,12 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 ![Dockerized PHP5.6 with Nginx](https://github.com/eduardevops/dockerized-php5.6-nginx)
 
 
+#### Components Versions
+*	PHP v5.6.40
+*	Apache v2.4.25
+*	MySQL v5.7.26
+*	Redis v5.0.5
+
 ------
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
@@ -18,11 +24,6 @@ Make sure to rename config files and their content to something that better refl
 In config folder you will find files for proxying web, for both Apache and Nginx, whichever suits you the best
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize)
 
-#### Components Versions
-*	PHP v5.6.40
-*	Apache v2.4.25
-*	MySQL v5.7.26
-*	Redis v5.0.5
 ------
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
