@@ -54,8 +54,8 @@ Clone repo to your server (I would recommend using /opt directory)
 ```less
 sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 ```
-Put your webapp/website into the 'web' folder
 
+Put your webapp/website into the 'web' folder
 Navigate to the project folder and start containers
 
 ```less

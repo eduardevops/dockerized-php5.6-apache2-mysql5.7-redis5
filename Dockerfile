@@ -7,7 +7,8 @@ COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
 COPY ./conf/php.ini /usr/local/etc/php/
 COPY web /var/www/html/website
 
-# To av
+# Setting ServerName to avout "apache2: Could not reliably determine the server's fully qualified domain name..."
+# error message.
 RUN echo "ServerName localhost" | tee /etc/apache2/conf-available/servername.conf
 RUN a2enconf servername
 
