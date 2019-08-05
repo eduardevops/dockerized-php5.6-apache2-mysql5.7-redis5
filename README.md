@@ -13,7 +13,7 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 #### Components Versions
 *	PHP v5.6.40
 *	Apache v2.4.25
-*	MySQL v5.7.26
+*	MySQL v5.7.27
 *	Redis v5.0.5
 
 ------
@@ -21,12 +21,16 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 Make sure to rename config files and their content to something that better reflects your project. In fact rename everything.
-In config folder you will find files for proxying web, for both Apache and Nginx, whichever suits you the best
-There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize)
+In config folder you will find config files for both Apache and Nginx, to operate as reverse proxy.
+Choose whatever suits you the best.
+There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
 
-Backup
+docker-compose-alter.yml is an compose file version 2.4 so you can set memory limits for your containers. Also instead of env files has all configurations inside the compose file. of for any reason you want to set your db namne, password, etc. in compose.
 
-Alternatives
+In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
+Take a look at names and paths. They must be exactly the same you have.
+
+
 
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
@@ -74,3 +78,6 @@ docker-compose logs -f
 ```
 
 -----
+#### Coming context
+* Using secrets for MySQL, instead of .env files
+* Swarm 
