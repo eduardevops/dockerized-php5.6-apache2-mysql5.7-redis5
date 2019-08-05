@@ -15,7 +15,7 @@ services:
       - website-db
       - website-redis
     env_file:
-      - .env.web
+      - .env.redis
   website-db:
     restart: always
     image: mysql:5.7
