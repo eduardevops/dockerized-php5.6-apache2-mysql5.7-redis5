@@ -78,7 +78,7 @@ docker-compose logs -f
 ```
 
 -----
-#### Coming context
+#### Coming nexr
 * Using secrets for MySQL, instead of .env files
 * Swarm
 * Kubernetes
