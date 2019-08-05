@@ -37,6 +37,8 @@ docker-compose-alter.yml is an compose file version 2.4 so you can set memory li
 In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
 Take a look at names and paths. They must be exactly the same you have.
 
+##### Environment
+Edit .env.db file to change database name, username and basically everything in that file. 
 
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
