@@ -20,8 +20,6 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-#### Explanations
-
 ##### Rename
 Make sure to rename config files and their content to something that better reflects your project. In fact rename everything.
 In config folder you will find config files for both Apache and Nginx, to operate as reverse proxy.
