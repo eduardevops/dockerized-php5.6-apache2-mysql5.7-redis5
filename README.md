@@ -22,7 +22,7 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 
 ##### Explanations
 
-#### Rename
+##### Rename
 Make sure to rename config files and their content to something that better reflects your project. In fact rename everything.
 In config folder you will find config files for both Apache and Nginx, to operate as reverse proxy.
 Choose whatever suits you the best.
@@ -30,17 +30,17 @@ Choose whatever suits you the best.
 ##### PHP
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
 
-##### Alternative
+#### Alternative
 docker-compose-alter.yml is an compose file version 2.4 so you can set memory limits for your containers. Also instead of env files has all configurations inside the compose file. of for any reason you want to set your DB namne, password, etc. in compose.
 
-#### Backup
+##### Backup
 In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
 Take a look at names and paths. They must be exactly the same you have.
 
-#### Environment
+##### Environment
 Edit .env.db file to change database name, username and basically everything in that file.
 
-#### Content
+##### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
 
