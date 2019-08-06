@@ -40,9 +40,10 @@ Take a look at names and paths. They must be exactly the same you have.
 ##### Environment
 Edit .env.db file to change database name, username and basically everything in that file.
 
+
+-----
 ##### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
-
 
 #### Tree
 ```less
