@@ -20,7 +20,7 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-##### Explanations
+#### Explanations
 
 ##### Rename
 Make sure to rename config files and their content to something that better reflects your project. In fact rename everything.
@@ -30,7 +30,7 @@ Choose whatever suits you the best.
 ##### PHP
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
 
-#### Alternative
+##### Alternative
 docker-compose-alter.yml is an compose file version 2.4 so you can set memory limits for your containers. Also instead of env files has all configurations inside the compose file. of for any reason you want to set your DB namne, password, etc. in compose.
 
 ##### Backup
