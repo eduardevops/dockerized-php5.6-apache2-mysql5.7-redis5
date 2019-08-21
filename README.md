@@ -84,8 +84,11 @@ Check logs in real-time
 docker-compose logs -f
 ```
 
------
 #### Coming next
 * Using secrets for MySQL, instead of .env files
 * Swarm
 * Kubernetes
+-----
+
+# Contact
+As the description is not complete yet, it may be confusing. So in case of any questions you may write to me <eduard.saryan@protonmail.com>
