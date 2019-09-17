@@ -88,12 +88,3 @@ docker-compose logs -f
 #### Illustrations
 ![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
 -----
-
-#### Coming next
-* Using secrets for MySQL, instead of .env files
-* Swarm
-* Kubernetes
------
-
-# Contact
-As the description is not complete yet, it may be confusing. So in case of any questions you may write to me <eduard.saryan@protonmail.com>
