@@ -80,7 +80,7 @@ docker-compose up -d
 ```
 #### Illustrations
 ![Compose Update](./assets/docker-compose-up.gif)
-
+![Compose Update] (https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
 
 Check logs in real-time
 ```less
