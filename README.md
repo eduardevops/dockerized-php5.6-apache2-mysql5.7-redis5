@@ -1,19 +1,10 @@
-# Run any PHP 5.6.x website inside Docker container
+## Run any PHP 5.6.x website inside Docker container
 
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
-
-## General info
-This project is simple Lorem ipsum dolor generator.
-
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-
+* [Status](#Status)
+* [Motivation](#Motivation)
+* [Components](#Components)
+* [How To Use](#How To Use)
 
 -----
 ![Logo](./assets/logo.jpg)
@@ -29,7 +20,7 @@ Project is created with:
 Once I got a freelance job to dockerize a web application based on PHP 5.6 with MySQL database. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed container on my own for that project both for using Apache with PHP and Nginx with PHP-FPM. After that, I thought it would be a good idea to make your life easier by sharing it publicly so that you can use it for your projects.
 
 #### PHP-FPM
-If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
+If you are looking for  PHP5.6-FPM use the following project <br>
 ![Dockerized PHP5.6 with Nginx](https://github.com/eduardevops/dockerized-php5.6-fpm)
 
 
