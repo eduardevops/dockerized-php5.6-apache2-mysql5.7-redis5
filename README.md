@@ -20,32 +20,31 @@ If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
 *	Redis v5.0.5
 
 ------
-#### First things first
+#### #First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-##### Rename Everything
+#### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
 In config folder you will find reverse proxy configuration files for both Apache and Nginx. You can use your own. Those files are for
 Choose whatever suits you the best.
 
-##### php.ini
+#### php.ini
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
 
-##### Alternative
+#### Alternative
 docker-compose-alter.yml is an compose file version 2.4 so you can set memory limits for your containers. Also instead of env files has all configurations inside the compose file. of for any reason you want to set your DB namne, password, etc. in compose.
 
-##### Backup
+#### Backup
 In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
 Take a look at names and paths. They must be exactly the same you have.
 
-##### Environment
+#### Environment
 Edit .env.db file to change database name, username and basically everything in that file.
 
 -----
-##### Content
+#### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
-#### Table of contents
 ```less
 ├── .env.db
 ├── .env.web
@@ -81,6 +80,7 @@ Navigate to the project folder and start containers
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
+
 #### Illustration
 ![Compose Up](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/8b673db930eb8bc6401b74774ade1a40d808649c/assets/docker-compose-up.gif)
 
@@ -88,5 +88,6 @@ Check logs in real-time
 ```less
 docker-compose logs -f
 ```
+
 #### Illustration
 ![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
