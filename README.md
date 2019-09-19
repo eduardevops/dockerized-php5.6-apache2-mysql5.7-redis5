@@ -4,7 +4,7 @@
 * [Status](#Status)
 * [Motivation](#Motivation)
 * [Components](#Components)
-* [How To Use](#HowToUse)
+* [How To Use](#How-To-Use)
 
 -----
 ![Logo](./assets/logo.jpg)
@@ -76,7 +76,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 
 ------
 
-#### HowToUse
+#### How To Use
 Clone repo to your server (I would recommend using /opt directory)
 
 ```less
