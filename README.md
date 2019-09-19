@@ -37,15 +37,16 @@ Make sure to rename config files and their content to something that better refl
 
 ## Config Folder
 
-####    | Tables        | Are           | Cool  |
-####    | ------------- |:-------------:| -----:|
-####    | col 3 is      | right-aligned | $1600 |
-####    | col 2 is      | centered      |   $12 |
-####    | zebra stripes | are neat      |    $1 |
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
-- ##### php.ini
-- ##### Adams
+- ###### Jefferson
 - ##### Jefferson
+- ####  Jefferson
+- ### php.ini
 
 ##### php.ini
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
