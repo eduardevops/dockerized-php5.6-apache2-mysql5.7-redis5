@@ -1,4 +1,4 @@
-# Run any webapp/website writen with PHP 5.6.x inside Docker container
+# Run any PHP 5.6.x website inside Docker container
 
 -----
 ![Logo](./assets/logo.jpg)
@@ -18,7 +18,7 @@ If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
 ![Dockerized PHP5.6 with Nginx](https://github.com/eduardevops/dockerized-php5.6-fpm)
 
 
-#### Components Versions
+#### Components
 *	PHP v5.6.40
 *	Apache v2.4.25
 *	MySQL v5.7.27
@@ -69,6 +69,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ```
 
 ------
+
 #### How To Use
 Clone repo to your server (I would recommend using /opt directory)
 
@@ -94,3 +95,5 @@ docker-compose logs -f
 
 #### Illustration
 ![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
+
+------
