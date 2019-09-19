@@ -1,4 +1,6 @@
+# Run any webapp/website writen with PHP 5.6.x inside Docker container
 
+-----
 ![Logo](./assets/logo.jpg)
 -----
 
@@ -67,7 +69,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ```
 
 ------
-#### HowTo
+#### How To Use
 Clone repo to your server (I would recommend using /opt directory)
 
 ```less
