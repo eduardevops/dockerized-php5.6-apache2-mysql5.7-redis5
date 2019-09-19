@@ -8,7 +8,7 @@
 * [Technologies](#First-things-first)
 
 -----
-![Logo](./assets/logo.jpg)
+![Logo](./assets/logo.jpg)           Testing things
 -----
 
 #### Status
