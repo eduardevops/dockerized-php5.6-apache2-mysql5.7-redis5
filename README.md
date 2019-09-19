@@ -35,9 +35,11 @@ Before you can use this repo make sure you have [Docker](https://www.docker.com/
 #### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
 
-### Conf folder
+- ##### php.ini
+- John Adams
+- Thomas Jefferson
 
-#### php.ini
+##### php.ini
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
 
 #### Alternative
