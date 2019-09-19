@@ -20,7 +20,7 @@ If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
 *	Redis v5.0.5
 
 ------
-#### #First things first
+#### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 #### Rename Everything
