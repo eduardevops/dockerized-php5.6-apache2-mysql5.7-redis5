@@ -4,9 +4,11 @@
 ![Logo](./assets/logo.jpg)
 -----
 
+##### Motivation
 Once I got a freelance job to dockerize a web application based on PHP 5.6 with MySQL database. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed container on my own for that project both for using Apache with PHP and Nginx with PHP-FPM. After that, I thought it would be a good idea to make your life easier by sharing it publicly so that you can use it for your projects.
 
-If you are looking for  PHP5.6 with Nginx use the following project <br>
+#### PHP-FPM
+If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
 ![Dockerized PHP5.6 with Nginx](https://github.com/eduardevops/dockerized-php5.6-fpm)
 
 
@@ -20,12 +22,12 @@ If you are looking for  PHP5.6 with Nginx use the following project <br>
 #### First things first
 Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
-##### Rename
+##### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
 In config folder you will find reverse proxy configuration files for both Apache and Nginx. You can use your own. Those files are for
 Choose whatever suits you the best.
 
-##### PHP
+##### php.ini
 There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
 
 ##### Alternative
@@ -37,7 +39,6 @@ Take a look at names and paths. They must be exactly the same you have.
 
 ##### Environment
 Edit .env.db file to change database name, username and basically everything in that file.
-
 
 -----
 ##### Content
