@@ -48,6 +48,13 @@ Make sure to rename config files and their content to something that better refl
 - ##### Jefferson
 - ##### Jefferson
 
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+
 ##### php.ini
 php.ini  in case you need specific configurations for PHP (e.g. upload_max_filesize, ).
 
