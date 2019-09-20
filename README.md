@@ -61,7 +61,6 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 ```
 
 ### Config Folder
-
 | File                        | Description                                                                                   |
 | :-------------------------- |:--------------------------------------------------------------------------------------------- |
 | apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
