@@ -32,41 +32,15 @@ After that, I thought it would be a good idea to make your life easier by sharin
 #### Build With
 *	[Docker](https://www.docker.com/)
 *	[Docker Compose](https://docs.docker.com/compose/install/)
-
+----
 
 #### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
 
-### Config Folder
-
-| File                        | Description                                                                             |
-| :-------------------------- |:--------------------------------------------------------------------------------------- |
-| apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)              |
-| nginx-reverse-proxy.conf    | Basic reverse proxy config file for nginx  (With Letsencrypt certificates)              |
-| docker-compose-alter.yml    | Alternative Compose file, in case you want to have all your passwords inside YAML file  |
-| php.ini                     | php.ini in case you need specific configs for PHP (e.g. upload_max_filesize)            |
-| website.conf                | Apache config file for containers                                                       |
-
-
-
-##### php.ini
-php.ini  in case you need specific configurations for PHP (e.g. upload_max_filesize, ).
-
-#### Alternative
-docker-compose-alter.yml is an compose file version 2.4 so you can set memory limits for your containers. Also instead of env files has all configurations inside the compose file. of for any reason you want to set your DB namne, password, etc. in compose.
-
-#### Backup
-In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
-Take a look at names and paths. They must be exactly the same you have.
-
-#### Environment
-Edit .env.db file to change database name, username and basically everything in that file.
-
------
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
-```java
+```less
 ├── .env.db
 ├── .env.web
 ├── Dockerfile
@@ -86,7 +60,25 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
     └── index.php
 ```
 
-------
+### Config Folder
+
+| File                        | Description                                                                                   |
+| :-------------------------- |:--------------------------------------------------------------------------------------------- |
+| apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
+| nginx-reverse-proxy.conf    | Basic reverse proxy config file for nginx  (With Letsencrypt certificates)                    |
+| docker-compose-alter.yml    | Alternative Compose file v2.4, in case you want to have all your passwords inside YAML file   |
+| php.ini                     | php.ini in case you need specific configs for PHP (e.g. upload_max_filesize)                  |
+| website.conf                | Apache config file for containers                                                             |
+
+
+#### Environment
+Edit .env.db file to change database name, username and basically everything in that file.
+
+#### Backup
+In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
+Take a look at names and paths. They must be exactly the same you have.
+-----
+
 #### How To Use
 Clone repo to your server (I would recommend using /opt directory)
 
