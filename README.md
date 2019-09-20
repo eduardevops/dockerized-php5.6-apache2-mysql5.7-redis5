@@ -5,7 +5,7 @@
 * [Motivation](#Motivation)
 * [Components](#Components)
 * [How To Use](#How-To-Use)
-* [Technologies](#First-things-first)
+* [Build With](#Build-With)
 
 -----
 ![Logo](./assets/logo.jpg)          
@@ -29,8 +29,11 @@ After that, I thought it would be a good idea to make your life easier by sharin
 *	Redis v5.0.5
 
 ------
-#### First things first
-Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
+#### Build With
+*	[Docker](https://www.docker.com/)
+*	[Docker Compose](https://docs.docker.com/compose/install/)
+
+... Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 #### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
