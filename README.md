@@ -4,8 +4,11 @@
 * [Status](#Status)
 * [Motivation](#Motivation)
 * [Components](#Components)
-* [How To Use](#How-To-Use)
 * [Build With](#Build-With)
+* [Content Tree](#Content-Tree)
+
+* [Rename Everything](#Rename-Everything)
+* [How To Use](#How-To-Use)
 
 ![Logo](./assets/logo.jpg)          
 
@@ -31,12 +34,11 @@ After that, I thought it would be a good idea to make your life easier by sharin
 -----
 
 ### Rename Everything
+
 Make sure to rename config files and their content to something that better reflects your project. <br>
 In fact you should rename everything.
 
-### Content
-The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
-
+### Content Tree
 ```less
 ├── .env.db
 ├── .env.web
@@ -71,7 +73,7 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 Edit .env.db file to change database name, username and basically everything in that file.
 
 ### Backup
-In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
+There are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
 Take a look at names and paths. They must be exactly the same you have.
 
 -------
@@ -101,5 +103,3 @@ docker-compose logs -f
 
 ### Illustration
 ![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
-
-------
