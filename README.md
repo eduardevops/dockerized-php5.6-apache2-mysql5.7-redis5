@@ -11,33 +11,33 @@
 ![Logo](./assets/logo.jpg)          
 -----
 
-#### Status
+### Status
 <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6.svg" style="max-width:100%;"> <img alt="Image Size" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6/latest" style="max-width:100%;"> <a href="https://www.gnu.org/licenses/gpl-3.0/"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;"> </a>
 <img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/php5.6" style="max-width:100%;">
 -----
 
 
-#### Motivation
+### Motivation
 Once I got a freelance job to dockerize a web application written on PHP 5.6.x and MySQL. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed containers on my own for that project, both for using PHP and  ![PHP-FPM](https://github.com/eduardevops/dockerized-php5.6-fpm).
 After that, I thought it would be a good idea to make your life easier by sharing it publicly so that you can use it for your projects.
 
 
-#### Components
+### Components
 *	PHP v5.6.40
 *	Apache v2.4.25
 *	MySQL v5.7.27
 *	Redis v5.0.5
 
 ------
-#### Build With
+### Build With
 *	[Docker](https://www.docker.com/)
 *	[Docker Compose](https://docs.docker.com/compose/install/)
 ----
 
-#### Rename Everything
+### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
 
-#### Content
+### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
 ```less
@@ -70,15 +70,15 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 | website.conf                | Apache config file for containers                                                             |
 
 
-#### Environment
+### Environment
 Edit .env.db file to change database name, username and basically everything in that file.
 
-#### Backup
+### Backup
 In backup folder there are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
 Take a look at names and paths. They must be exactly the same you have.
 -----
 
-#### How To Use
+### How To Use
 Clone repo to your server (I would recommend using /opt directory)
 
 ```less
@@ -93,7 +93,7 @@ cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 
-#### Illustration
+### Illustration
 ![Compose Up](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/8b673db930eb8bc6401b74774ade1a40d808649c/assets/docker-compose-up.gif)
 
 Check logs in real-time
@@ -101,7 +101,7 @@ Check logs in real-time
 docker-compose logs -f
 ```
 
-#### Illustration
+### Illustration
 ![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
 
 ------
