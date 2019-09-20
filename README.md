@@ -48,13 +48,6 @@ Make sure to rename config files and their content to something that better refl
 - ##### Jefferson
 - ##### Jefferson
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-```
 
 ##### php.ini
 php.ini  in case you need specific configurations for PHP (e.g. upload_max_filesize, ).
@@ -73,7 +66,7 @@ Edit .env.db file to change database name, username and basically everything in 
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
-```yaml
+```java
 ├── .env.db
 ├── .env.web
 ├── Dockerfile
