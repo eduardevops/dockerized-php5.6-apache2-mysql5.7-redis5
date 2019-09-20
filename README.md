@@ -40,12 +40,12 @@ Make sure to rename config files and their content to something that better refl
 ### Config Folder
 
 | File                        | Description                                                                             |
-| --------------------------- |:---------------------------------------------------------------------------------------:|
+| :-------------------------- |:--------------------------------------------------------------------------------------- |
 | apache-reverse-proxy.conf   | Basic reverse proxy config file for apache                                              |
 | docker-compose-alter.yml    | Alternative Compose file, in case you want to have all your passwords inside YAML file  |
 | nginx-reverse-proxy.conf    | Basic reverse proxy config file for apache                                              |
 | php.ini                     | php.ini in case you need specific configs for PHP (e.g. upload_max_filesize)            |
-| website.conf                | Apache config file for containers                                                        |
+| website.conf                | Apache config file for containers                                                       |
 
 
 
