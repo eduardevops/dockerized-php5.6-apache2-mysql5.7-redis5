@@ -33,12 +33,11 @@ After that, I thought it would be a good idea to make your life easier by sharin
 *	[Docker](https://www.docker.com/)
 *	[Docker Compose](https://docs.docker.com/compose/install/)
 
-... Before you can use this repo make sure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed
 
 #### Rename Everything
 Make sure to rename config files and their content to something that better reflects your project. In fact you should rename everything.
 
-## Config Folder
+### Config Folder
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -46,10 +45,10 @@ Make sure to rename config files and their content to something that better refl
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-- ##### Jefferson
-- ##### Jefferson
-- ##### Jefferson
-- ##### Jefferson
+- #### Jefferson
+- #### Jefferson
+- #### Jefferson
+- #### Jefferson
 
 
 ##### php.ini
