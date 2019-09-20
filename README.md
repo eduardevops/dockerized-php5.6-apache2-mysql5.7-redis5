@@ -73,7 +73,7 @@ Edit .env.db file to change database name, username and basically everything in 
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
-```java
+```yaml
 ├── .env.db
 ├── .env.web
 ├── Dockerfile
