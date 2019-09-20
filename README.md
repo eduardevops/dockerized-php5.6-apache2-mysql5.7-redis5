@@ -49,7 +49,7 @@ Make sure to rename config files and their content to something that better refl
 - ##### Jefferson
 
 ##### php.ini
-There is also php.ini file in case you need specific configurations for PHP (e.g. upload_max_filesize).
+php.ini  in case you need specific configurations for PHP (e.g. upload_max_filesize, ).
 
 #### Alternative
 docker-compose-alter.yml is an compose file version 2.4 so you can set memory limits for your containers. Also instead of env files has all configurations inside the compose file. of for any reason you want to set your DB namne, password, etc. in compose.
@@ -65,7 +65,7 @@ Edit .env.db file to change database name, username and basically everything in 
 #### Content
 The list doesn't contain git generated files and repo assets (e.g. README.md, logo.jpg)
 
-```less
+```java
 ├── .env.db
 ├── .env.web
 ├── Dockerfile
@@ -76,10 +76,10 @@ The list doesn't contain git generated files and repo assets (e.g. README.md, lo
 │   └── web_restore.sh
 ├── conf
 │   ├── apache-reverse-proxy.conf
+|   ├── docker-compose-alter.yml
 │   ├── nginx-reverse-proxy.conf
 |   ├── php.ini
 │   └── website.conf
-├── docker-compose-alter.yml
 ├── docker-compose.yml
 └── web
     └── index.php
