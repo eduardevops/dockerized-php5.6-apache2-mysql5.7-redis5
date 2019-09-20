@@ -39,16 +39,14 @@ Make sure to rename config files and their content to something that better refl
 
 ### Config Folder
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| File                        | Description   | Cool  |
+| --------------------------- |:-------------:| -----:|
+| apache-reverse-proxy.conf   | Basic reverse proxy config file for apache                                              | $1600 |
+| docker-compose-alter.yml    | Alternative Compose file, in case you want to have all your passwords inside YAML file  |   $12 |
+| nginx-reverse-proxy.conf    | Basic reverse proxy config file for apache                                              |    $1 |
+| php.ini | are neat          |    $1                                                                                   |       |
+| website.conf | are neat     |    $1                                                                                   |       |
 
-- #### Jefferson
-- #### Jefferson
-- #### Jefferson
-- #### Jefferson
 
 
 ##### php.ini
