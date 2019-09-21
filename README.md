@@ -33,7 +33,7 @@ After that, I thought it would be a good idea to make your life easier by sharin
 -----
 
 ### Rename Everything
-
+There are a lot of config files
 Make sure to rename config files and their content to something that better reflects your project. <br>
 In fact you should rename everything.
 
@@ -72,7 +72,8 @@ In fact you should rename everything.
 Edit .env.db file to change database name, username and basically everything in that file.
 
 ### Backup
-There are 4 scripts for backup and restore of the project. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. Also in script there is an example of cronjob which can run backup jobs automatically and periodically.  
+There are 4 scripts, 2 for backup and 2 for restore. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. <br>
+   Also in script there is an example of cronjob which can run backup jobs automatically and periodically. <br>  
 Take a look at names and paths. They must be exactly the same you have.
 
 -------
