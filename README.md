@@ -74,7 +74,7 @@ Edit .env.db file to change database name, username and basically everything in 
 ### Backup
 There are 4 scripts, 2 for backup and 2 for restore. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. <br>
    Also in script there is an example of cronjob which can run backup jobs automatically and periodically. <br>  
-Take a look at names and paths. They must be exactly the same you have.
+##### Take a look at names and paths. They must be exactly the same you have in other files (docker-compose.yml. .env.db, etc).
 
 -------
 
