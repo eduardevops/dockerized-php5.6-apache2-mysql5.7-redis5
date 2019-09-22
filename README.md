@@ -68,14 +68,16 @@ In fact you should rename everything.
 | website.conf                | Apache config file for containers                                                             |
 
 
-### Environment
-Edit .env.db file to change database name, username and basically everything in that file.
-
-### Backup
-There are 4 scripts, 2 for backup and 2 for restore. Scripts are separated for web and database, in case you want to backup them in different times, or backup just once component of the project. <br>
-   Also in script there is an example of cronjob which can run backup jobs automatically and periodically. <br>  
 #### Make sure you have  exactly the same names and paths, you have in other files (docker-compose.yml, .env.db, etc).
 
+### Environment
+Edit. env.db file and modify database name, username and everything in that file.
+You can still alter  .env.redis if you find it certain.
+
+### Backup
+Script files are designed in a way that you can choose to backup / restore each component of the project separately whenever needed <br>
+  You may find cronjob examples in both, Web and Database backup scripts, or use your own to automate backup procedure. <br> 
+Before you can use the scripts you need to make sure  have the same names and paths you have in other files (docker-compose.yml, .env.db, etc).
 -------
 
 ### How To Use
