@@ -72,10 +72,11 @@ In fact you should rename everything.
 
 ### Environment
 Edit. env.db file and modify database name, username and everything in that file.
-You can still alter  .env.redis if you find it certain.
+You can still alter  .env.redis if you find it certain. <br>
 
-### Backup <br>
-Script files are designed in a way that you can choose to backup / restore each component of the project separately whenever needed <br>
+### Backup
+Script files are designed in a way that you can choose to backup / restore each component of the project separately whenever needed. <br>
+
   You may find cronjob examples in both, Web and Database backup scripts, or use your own to automate backup procedure. <br> 
 Before you can use the scripts you need to make sure  have the same names and paths you have in other files (docker-compose.yml, .env.db, etc).
 -------
@@ -90,7 +91,7 @@ sudo git clone https://github.com/eduardevops/dockerized-php5.6-apache.git
 Put your webapp/website into the 'web' folder. <br>
 Navigate to the project folder and start containers
 
-```less
+```
 cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
