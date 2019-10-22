@@ -76,12 +76,10 @@ You can still alter  .env.redis if you find it certain. <br>
 
 ### Backup
 Script files are designed in a way that you can choose to backup / restore each component of the project separately whenever needed.
--------
 
   You may find cronjob examples in both, Web and Database backup scripts, or use your own to automate backup procedure. <br> 
 Before you can use the scripts you need to make sure  have the same names and paths you have in other files (docker-compose.yml, .env.db, etc).
 
--------
 
 ### How To Use
 Clone repo to your server (I would recommend using /opt directory)
