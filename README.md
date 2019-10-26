@@ -1,4 +1,4 @@
-## Run any PHP 5.6.x website inside Docker container
+### Run any PHP 5.6.x website inside Docker container
 
 ![Logo](./assets/logo.jpg)          
 
