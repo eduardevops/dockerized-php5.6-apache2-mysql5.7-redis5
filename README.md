@@ -13,7 +13,7 @@
 * [Build With](#Build-With)
 * [Content Tree](#Content-Tree)
 * [Rename Everything](#Rename-Everything)
-* [How To Use](#How-To-Use)
+* [How To](#How-To)
 
 
 ### Motivation
@@ -37,7 +37,7 @@ There are a lot of config files
 Make sure to rename config files and their content to something that better reflects your project. <br>
 In fact you should rename everything.
 
-### Content Tree
+### Project Tree
 ```less
 ├── .env.db
 ├── .env.web
@@ -68,8 +68,6 @@ In fact you should rename everything.
 | website.conf                | Apache config file for containers                                                             |
 
 
-#### Make sure you have  exactly the same names and paths, you have in other files (docker-compose.yml, .env.db, etc).
-
 ### Environment
 Edit. env.db file and modify database name, username and everything in that file.
 You can still alter  .env.redis if you find it certain. <br>
@@ -81,7 +79,7 @@ You may find cronjob examples in both, Web and Database backup scripts, or use y
 Before you can use the scripts you need to make sure  have the same names and paths you have in other files (docker-compose.yml, .env.db, etc).
 
 
-### How To Use
+### How To
 Clone repo to your server (I would recommend using /opt directory)
 
 ```less
