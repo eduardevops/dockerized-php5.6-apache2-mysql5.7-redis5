@@ -66,7 +66,7 @@ All names can be, and, in most cases, should be changed.
 
 
 #### Env files
-Edit. env.db file and modify database name, username and everything in that file.
+Edit. env.db file and modify database name, username and everything in file.
 You can still alter .env.redis if you find it certain.
 
 #### Backup
