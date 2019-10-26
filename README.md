@@ -1,4 +1,4 @@
-### Run any PHP 5.6.x website inside Docker container
+### Run any PHP 5.6 website inside Docker container
 
 ![Logo](./assets/logo.jpg)          
 
@@ -15,12 +15,11 @@
 * [Rename Everything](#Rename-Everything)
 * [How To](#How-To)
 
-
 ### Motivation
 Once I got a freelance job to dockerize a web application written on PHP 5.6.x and MySQL. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed containers on my own for that project, both for using PHP and  ![PHP-FPM](https://github.com/eduardevops/dockerized-php5.6-fpm).
 After that, I thought it would be a good idea to make your life easier by sharing it publicly so that you can use it for your projects.
 
-### Components
+### Versions
 *	PHP v5.6.40
 *	Apache v2.4.25
 *	MySQL v5.7.27
@@ -33,11 +32,9 @@ After that, I thought it would be a good idea to make your life easier by sharin
 -----
 
 ### Rename Everything
-There are a lot of config files
-Make sure to rename config files and their content to something that better reflects your project. <br>
-In fact you should rename everything.
+All names can be, and, in most cases, should be changed.
 
-### Project Tree
+#### Project Tree
 ```less
 ├── .env.db
 ├── .env.web
@@ -63,21 +60,20 @@ In fact you should rename everything.
 | :-------------------------- |:--------------------------------------------------------------------------------------------- |
 | apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
 | nginx-reverse-proxy.conf    | Basic reverse proxy config file for nginx  (With Letsencrypt certificates)                    |
-| docker-compose-alter.yml    | Alternative Compose file v2.4, in case you want to have all your passwords inside YAML file   |
+| docker-compose-alter.yml    | Alternative compose file v2.4                                                                 |
 | php.ini                     | php.ini in case you need specific configs for PHP (e.g. upload_max_filesize)                  |
 | website.conf                | Apache config file for containers                                                             |
 
 
-### Environment
+### Env files
 Edit. env.db file and modify database name, username and everything in that file.
-You can still alter  .env.redis if you find it certain. <br>
+You can still alter .env.redis if you find it certain.
 
 ### Backup
 Script files are designed in a way that you can choose to backup/restore each component of the project separately whenever needed.
 
 You may find cronjob examples in both, Web and Database backup scripts, or use your own to automate backup procedure. <br> 
 Before you can use the scripts you need to make sure  have the same names and paths you have in other files (docker-compose.yml, .env.db, etc).
-
 
 ### How To
 Clone repo to your server (I would recommend using /opt directory)
