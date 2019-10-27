@@ -17,7 +17,7 @@
 
 #### Motivation
 Once I got a freelance job to dockerize a web application written on PHP 5.6.x and MySQL. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed containers on my own for that project, both for using PHP and  ![PHP-FPM](https://github.com/eduardevops/dockerized-php5.6-fpm).
-After that, I thought it would be a good idea to make your life easier by sharing it publicly so that you can use it for your projects.
+After that, I thought it would be a good idea to make it publicly so that anyone can use it.
 
 #### Versions
 *	PHP v5.6.40
