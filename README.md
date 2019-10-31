@@ -2,20 +2,21 @@
 
 ![Logo](./assets/logo.jpg)          
 
-#### Status
-<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6.svg" style="max-width:100%;"> <!-- <img alt="Image Size" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6/latest" style="max-width:100%;"> --> <a href="https://www.gnu.org/licenses/gpl-3.0/"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;"> </a>
-<img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/php5.6" style="max-width:100%;">
-
-------
-
 ## Table of contents
 * [Status](#Status)
 * [Motivation](#Motivation)
 * [Components](#Components)
 * [Build With](#Build-With)
-* [Content Tree](#Content-Tree)
+* [Project Tree](#Project-Tree)
+* [Config Folder](#Config-Folder)
 * [Rename Everything](#Rename-Everything)
 * [HowTo](#HowTo)
+
+#### Status
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6.svg" style="max-width:100%;"> <!-- <img alt="Image Size" src="https://img.shields.io/microbadger/image-size/eduardevops/php5.6/latest" style="max-width:100%;"> --> <a href="https://www.gnu.org/licenses/gpl-3.0/"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;"> </a>
+<img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/php5.6" style="max-width:100%;">
+
+------
 
 #### Motivation
 Once I got a freelance job to dockerize a web application written on PHP 5.6.x and MySQL. I investigated and couldn’t find a proper PHP 5.6 Docker container, which could fully satisfy the needs of the project. I built the needed containers on my own for that project, both for using PHP and  ![PHP-FPM](https://github.com/eduardevops/dockerized-php5.6-fpm).
