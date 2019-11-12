@@ -1,6 +1,7 @@
 #theme: jekyll-theme-cayman
 # remote_theme: mmistakes/so-simple-theme
-theme: theme: minimal-mistakes-jekyll
+# theme: theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 
 plugins:
   - jekyll-seo-tag
