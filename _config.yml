@@ -1,3 +1,7 @@
 #theme: jekyll-theme-cayman
 # remote_theme: mmistakes/so-simple-theme
 theme: theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-include-cache
