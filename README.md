@@ -29,8 +29,8 @@ If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
 #### Versions
 *	PHP v5.6.40
 *	Apache v2.4.25
-*	MySQL v5.7.27
-*	Redis v5.0.5
+*	MySQL v5.7.28
+*	Redis v5.0.7
 
 #### Build With
 *	[Docker](https://www.docker.com/)
@@ -62,8 +62,8 @@ If you are looking for  PHP5.6-FPM with Nginx use the following project <br>
 #### Config Folder
 | File                        | Description                                                                                   |
 | :-------------------------- |:--------------------------------------------------------------------------------------------- |
-| apache-reverse-proxy.conf   | Basic reverse proxy config file for apache (With Letsencrypt certificates)                    |
-| nginx-reverse-proxy.conf    | Basic reverse proxy config file for nginx  (With Letsencrypt certificates)                    |
+| apache-reverse-proxy.conf   | Basic reverse proxy config file for Apache (With Letsencrypt certificates)                    |
+| nginx-reverse-proxy.conf    | Basic reverse proxy config file for Nginx  (With Letsencrypt certificates)                    |
 | docker-compose-alter.yml    | Alternative compose file v2.4                                                                 |
 | php.ini                     | php.ini in case you need specific configs for PHP (e.g. upload_max_filesize)                  |
 | website.conf                | Apache config file for containers                                                             |
