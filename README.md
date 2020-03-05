@@ -1,8 +1,8 @@
-## Run any PHP 5.6 website inside Docker container
+### Run any PHP 5.6 website inside Docker container
 
 ![Logo](./assets/logo.jpg)          
 
-## Table of contents
+### Table of contents
 * [Status](#Status)
 * [Motivation](#Motivation)
 * [Components](#Components)
@@ -13,7 +13,7 @@
 * [Rename Everything](#Rename-Everything)
 * [HowTo](#HowTo)
 
-#### Status
+### Status
 <img alt="Image Size" src="https://img.shields.io/docker/image-size/eduardevops/php5.6" style="max-width:100%;"> <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/eduardevops/php5.6" style="max-width:100%;"> <img alt="Build Status" src="https://img.shields.io/docker/cloud/build/eduardevops/php5.6" style="max-width:100%;"> <img alt="Licenses" src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width:100%;">
 
 ------
