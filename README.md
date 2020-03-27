@@ -7,14 +7,13 @@
 
 ### Table of contents
 * [Status](#Status)
-* [Motivation](#Motivation)
 * [Versions](#Versions)
 * [Prerequisites](#Prerequisites)
 * [Project Tree](#Project-Tree)
 * [Backup Folder](#Backup-Folder)
 * [Rename](#Rename)
 * [Deployment](#Deployment)
-
+* [Illustration](#Illustration)
 
 For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github.com/eduardevops/dockerized-php5.6-fpm)
 
@@ -40,9 +39,6 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 │   ├── web_backup.sh
 │   └── web_restore.sh
 ├── conf
-│   ├── apache-reverse-proxy.conf
-|   ├── docker-compose-alter.yml
-│   ├── nginx-reverse-proxy.conf
 |   ├── php.ini
 │   └── website.conf
 ├── docker-compose.yml
@@ -62,11 +58,9 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 All names can be, and, in most cases, should be changed.
 
 ### php.ini
-
 In case you need additional configurations for PHP. Edit this file before deploying the container.
 
 ### website.conf
-
 Basic vhost config file for Apache2.
 
 -----
@@ -94,7 +88,4 @@ Check logs in real-time
 docker-compose logs -f
 ```
 
-### Illustration
 ![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
-
------
