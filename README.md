@@ -13,7 +13,6 @@
 * [Backup Folder](#Backup-Folder)
 * [Rename](#Rename)
 * [Deployment](#Deployment)
-* [Illustration](#Illustration)
 
 For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github.com/eduardevops/dockerized-php5.6-fpm)
 
@@ -80,12 +79,7 @@ cd /path/to/dockerized-php5.6-apache
 docker-compose up -d
 ```
 
-### Illustration
-![Compose Up](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/8b673db930eb8bc6401b74774ade1a40d808649c/assets/docker-compose-up.gif)
-
 Check logs in real-time
 ```less
 docker-compose logs -f
 ```
-
-![Compose Logs](https://rawcdn.githack.com/eduardevops/dockerized-php5.6-apache/e7ecae391b77bd311a52a96c17d200e342a6121e/assets/docker-compose-logs.gif)
