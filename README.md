@@ -68,6 +68,7 @@ In case you need additional configurations for PHP. Edit this file before deploy
 ### website.conf
 
 Basic vhost config file for Apache2.
+
 -----
 
 ### Deployment
