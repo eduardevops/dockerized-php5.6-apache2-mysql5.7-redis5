@@ -63,8 +63,11 @@ All names can be, and, in most cases, should be changed.
 
 ### php.ini
 
+In case you need additional configurations for PHP. Edit this file before deploying the container.
+
 ### website.conf
 
+Basic vhost config file for Apache2.
 -----
 
 ### Deployment
