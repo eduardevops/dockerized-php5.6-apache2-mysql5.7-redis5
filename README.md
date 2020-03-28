@@ -72,7 +72,7 @@ sudo git clone https://github.com/eduardevops/dockerized-php5.6.git
 ```
 
 Put your webapp/website into the ```web``` folder. <br>
-Navigate to the project folder and start containers
+Navigate to the project folder and start containers.
 
 ```less
 cd /path/to/dockerized-php5.6
