@@ -11,9 +11,8 @@ services:
       - 8000:80
     links:
       - website-db
-      - website-redis
     env_file:
-      - .env.redis
+      - .env.db
   website-db:
     restart: always
     image: mysql:5.7
@@ -24,15 +23,6 @@ services:
       - .env.db
     volumes:
       - db:/var/lib/mysql
-  website-redis:
-    restart: always
-    image: redis:5-alpine
-    container_name: website-redis
-    #ports:
-    #  - 6379:6379
-    volumes:
-      - redis:/data
 volumes:
     web:
     db:
-    redis:

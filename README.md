@@ -20,7 +20,6 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 *	PHP v5.6.40
 *	Apache v2.4.25
 *	MySQL v5.7.28
-*	Redis v5.0.7
 
 ### Prerequisites
 *	[Docker](https://www.docker.com/)
