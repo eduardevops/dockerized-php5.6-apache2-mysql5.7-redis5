@@ -65,7 +65,7 @@ Basic vhost config file for Apache2.
 -----
 
 ### Deployment
-Clone repo to your server (I would recommend using /opt directory)
+Clone repo to your server. I would recommend using ```/opt``` directory
 
 ```less
 sudo git clone https://github.com/eduardevops/dockerized-php5.6.git
