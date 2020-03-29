@@ -1,3 +1,4 @@
+# Base image
 FROM php:5.6-apache
 
 RUN mkdir /var/www/html/website
@@ -34,6 +35,6 @@ RUN apt-get update  \
     && apt-get autoremove
 
 # Exposing web ports
-EXPOSE 80 443
+EXPOSE 80 
 
 CMD apachectl -D FOREGROUND
