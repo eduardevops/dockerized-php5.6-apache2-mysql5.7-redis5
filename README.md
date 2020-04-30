@@ -50,14 +50,16 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 | web_backup.sh               | Small script to restore MySQL database   |
 | web_restore.sh              | Small script to restore web Folder       |
 
+### Config Folder
+| File                        | Description                              |
+| :-------------------------- |:------------------------------------------------------------------------------------ |
+| php.ini                     | For additional configurations of PHP, еdit this file before deploying the container. |      
+| website.conf                | Basic vhost config file for Apache2.  
+
 ### Rename
 All names can be, moreover, in most cases, should be changed.
 
-### php.ini
-For additional configurations of PHP, еdit this file before deploying the container.
-
-### website.conf
-Basic vhost config file for Apache2.
+-----
 
 ### Deployment
 Clone repo to your server. I suggest using ```/opt``` directory
