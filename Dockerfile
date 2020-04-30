@@ -35,6 +35,6 @@ RUN apt-get update  \
     && apt-get autoremove
 
 # Exposing web ports
-EXPOSE 80
+EXPOSE 80 443
 
 CMD apachectl -D FOREGROUND

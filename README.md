@@ -1,4 +1,4 @@
-### Run any PHP 5.6 website inside Docker container
+### Dockerized PHP5.6
 
 ![Logo](./assets/logo.jpg)          
 
@@ -29,7 +29,6 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 ### Project Tree
 ```less
 ├── .env.db
-├── .env.web
 ├── Dockerfile
 ├── backup
 │   ├── db_backup.sh
@@ -53,10 +52,10 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 | web_restore.sh              | Small script to restore web Folder       |
 
 ### Rename
-All names can be, and, in most cases, should be changed.
+All names can be, moreover, in most cases, should be changed.
 
 ### php.ini
-In case you need additional configurations for PHP, еdit this file before deploying the container.
+For additional configurations of PHP, еdit this file before deploying the container.
 
 ### website.conf
 Basic vhost config file for Apache2.
@@ -64,8 +63,7 @@ Basic vhost config file for Apache2.
 -----
 
 ### Deployment
-Clone repo to your server. I would recommend using ```/opt``` directory
-
+Clone repo to your server. I suggest using ```/opt``` directory
 ```less
 sudo git clone https://github.com/eduardevops/dockerized-php5.6.git
 ```
@@ -76,9 +74,4 @@ Navigate to the project folder and start containers.
 ```less
 cd /path/to/dockerized-php5.6
 docker-compose up -d
-```
-
-Check logs in real-time
-```less
-docker-compose logs -f
 ```
