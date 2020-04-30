@@ -54,7 +54,7 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 | File                        | Description                              |
 | :-------------------------- |:------------------------------------------------------------------------------------ |
 | php.ini                     | For additional configurations of PHP, еdit this file before deploying the container. |      
-| website.conf                | Basic vhost config file for Apache2.  
+| website.conf                | Apache2 basic vhost file.  
 
 ### Rename
 All names can be, moreover, in most cases, should be changed.
