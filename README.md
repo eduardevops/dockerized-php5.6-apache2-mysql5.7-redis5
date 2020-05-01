@@ -7,19 +7,14 @@
 
 ### Table of contents
 * [Status](#Status)
-* [Versions](#Versions)
 * [Prerequisites](#Prerequisites)
 * [Project Tree](#Project-Tree)
 * [Backup Folder](#Backup-Folder)
+* [Config Folder](#Config-Folder)
 * [Rename](#Rename)
 * [Deployment](#Deployment)
 
 For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github.com/eduardevops/dockerized-php5.6-fpm)
-
-### Versions
-*	PHP v5.6.40
-*	Apache v2.4.25
-*	MySQL v5.7.29
 
 ### Prerequisites
 *	[Docker](https://www.docker.com/)
