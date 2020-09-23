@@ -51,7 +51,7 @@ For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github
 | website.conf                | Apache2 basic vhost file.  
 
 ### Rename
-It is highy advised to change all names.
+It is highly advised to change all names.
 
 -----
 
