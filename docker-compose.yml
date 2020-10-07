@@ -7,6 +7,8 @@ services:
       dockerfile: Dockerfile
     container_name: website-web
     image: website-web
+    volumes:
+      - ./web:/var/www/html/website
     ports:
       - 8000:80
     links:
@@ -22,7 +24,7 @@ services:
     env_file:
       - .env.db
     volumes:
-      - db:/var/lib/mysql
+      - ./db:/var/lib/mysql
 volumes:
     web:
     db:
