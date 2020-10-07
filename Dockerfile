@@ -3,7 +3,7 @@ FROM php:5.6-apache
 
 #
 RUN mkdir /var/www/html/website
-VOLUME ./web:/var/www/html/website
+# VOLUME ./web:/var/www/html/website
 
 COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
 COPY ./conf/php.ini /usr/local/etc/php/
