@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: website-web
     image: website-web
+    container_name: website-web
     volumes:
       - ./web:/var/www/html/website
     ports:

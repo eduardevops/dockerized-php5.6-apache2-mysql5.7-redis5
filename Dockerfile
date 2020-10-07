@@ -7,7 +7,6 @@ RUN mkdir /var/www/html/website
 # Copy config files into the container
 COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
 COPY ./conf/php.ini /usr/local/etc/php/
-# COPY web /var/www/html/website
 
 # Setting ServerName to avoid "Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName" warning
 RUN echo "ServerName localhost" | tee /etc/apache2/conf-available/servername.conf
