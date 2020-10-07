@@ -19,8 +19,6 @@ services:
     restart: always
     image: mysql:5.7
     container_name: website-db
-    #ports:
-    #  - 3306:3306
     env_file:
       - .env.db
     volumes:

@@ -1,10 +1,10 @@
 # Base image
 FROM php:5.6-apache
 
-#
+# Create web folder
 RUN mkdir /var/www/html/website
-# VOLUME ./web:/var/www/html/website
 
+# Copy config files into the container
 COPY ./conf/website.conf /etc/apache2/sites-available/website.conf
 COPY ./conf/php.ini /usr/local/etc/php/
 # COPY web /var/www/html/website
@@ -13,14 +13,14 @@ COPY ./conf/php.ini /usr/local/etc/php/
 RUN echo "ServerName localhost" | tee /etc/apache2/conf-available/servername.conf
 RUN a2enconf servername
 
-# Copying webapp/website and configuration files to their respective folders. Configuring Apache
+# Configure Apache vhosts, enable mod rewrite
 RUN chown -R www-data:www-data /var/www/html/website \
     && a2dissite 000-default.conf \
     && a2ensite website.conf \
     && a2enmod rewrite \
     && service apache2 restart
 
-# Installing PHP, extensions and other necessary packages
+# Installing PHP, PHP extensions and necessary packages
 RUN apt-get update && apt-get install -y --no-install-recommends libpng-dev libjpeg-dev libjpeg62-turbo libmcrypt4 libmcrypt-dev libcurl3-dev libxml2-dev libxslt-dev libicu-dev  && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update  \
