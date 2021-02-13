@@ -13,7 +13,7 @@
 * [Rename](#Rename)
 * [Deployment](#Deployment)
 
-For PHP5.6-FPM with Nginx use ![Dockerized PHP5.6-FPM with Nginx](https://github.com/eduardsaryan/dockerized-lemp-php5.6-fpm)
+For PHP5.6-FPM with Nginx use [Dockerized PHP5.6-FPM with Nginx](https://github.com/eduardsaryan/dockerized-lemp-php5.6-fpm)
 
 ### Prerequisites
 *	[Docker](https://www.docker.com/)
