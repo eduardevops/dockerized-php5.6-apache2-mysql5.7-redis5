@@ -1,21 +1,21 @@
 version: '3'
 services:
-  website:
+  webapp-web:
     restart: always
     build:
       context: .
       dockerfile: Dockerfile
-    image: website-web
-    container_name: website-web
+    image: webapp-web
+    container_name: webapp-web
     volumes:
-      - ./web:/var/www/html/website
+      - ./web:/var/www/html/webapp
     ports:
       - 8000:80
     links:
       - website-db
     env_file:
       - .env.db
-  website-db:
+  webapp-db:
     restart: always
     image: mysql:5.7
     container_name: website-db
